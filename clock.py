@@ -10,7 +10,7 @@ except:
 
 def update_time():
     current_time = time.strftime("%H:%M:%S")
-    current_date = time.strftime("%A,%d,%B,%Y")
+    current_date = time.strfdate("%A,%d,%B,%Y")
     label_time.config(text=current_time)
     label_date.config(text=current_date)
     label_time.after(1000, update_time)
