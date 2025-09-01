@@ -40,7 +40,7 @@ class CameraApp:
 
     def quit_app(self):
         self.video.release()
-        self.root.destory()
+        self.root.destroy()
 
 if __name__ == "__main__":
     root = tk.Tk()
